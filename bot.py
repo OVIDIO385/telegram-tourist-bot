@@ -11,8 +11,8 @@ except ImportError:
     genai = None
 
 # Leer tokens desde variables de entorno (NO dejar credenciales en el código)
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.environ.get("HTTP:8297875240:AAGDd26WxzXpf4IRTVMTiMayfeYBxmRcw7k")
+GEMINI_API_KEY = os.environ.get("AIzaSyB-93KRw5JQcdFH9npGOfnglWdq7r9kr9g")
 
 HAVE_GEMINI = False
 if genai and GEMINI_API_KEY:
